@@ -27,6 +27,7 @@ A .NET MAUI Android application that tracks the user's location and visualizes i
 3. Set up your Google Maps API key:
    - Enable Maps SDK for Android on Google Cloud Console
    - Add your key to Platforms/Android/AndroidManifest.xml:
+   ```bash
      <meta-data android:name="com.google.android.geo.API_KEY"
            android:value="YOUR_API_KEY_HERE" />
 4. Build and deploy to an Android device.
